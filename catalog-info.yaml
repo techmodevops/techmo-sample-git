@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techmo-sample-git
+  annotations:
+    github.com/project-slug: techmodevops/techmo-sample-git
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
