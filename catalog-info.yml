@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: farm-automation
+  description: |
+    farm-automation is the major service in the khetibuddy platform
+  links:
+    - title: Website
+      url: https://replicafarmer.prod.khetibuddy.com/farmer
+    - title: Documentation
+      url: https://replicafarmer.prod.khetibuddy.com/farmer/docs
+    - title: Storybook
+      url: https://replicafarmer.prod.khetibuddy.com/farmer/storybook
+    - title: Discord Chat
+      url: https://replicafarmer.prod.khetibuddy.com/farmer
+  annotations:
+    github.com/project-slug: farm_automation17/farm_automation17
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://replicafarmer.prod.khetibuddy.com/farmer
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: experimental
